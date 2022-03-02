@@ -31,8 +31,7 @@ class _CitasState extends State<Citas> {
 
 List<Appointment> obtenerfecha() {
   List<Appointment> tratamientos = <Appointment>[];
-  final DateTime hoy = DateTime.now();
-  DateTime tiempoinicio = DateTime(hoy.year, hoy.month, hoy.day, 9, 0, 0);
+  DateTime tiempoinicio = DateTime(2022, 03, 25, 9, 0, 0);
   DateTime tiempofinal = tiempoinicio.add(const Duration(hours: 1));
 
   tratamientos.add(Appointment(
@@ -42,7 +41,7 @@ List<Appointment> obtenerfecha() {
     color: Colors.blue,
   ));
 
-  tiempoinicio = DateTime(hoy.year, hoy.month, hoy.day, 10, 0, 0);
+  tiempoinicio = DateTime(2022, 03, 26, 10, 0, 0);
   tiempofinal = tiempoinicio.add(const Duration(hours: 1));
 
   tratamientos.add(Appointment(
@@ -52,7 +51,7 @@ List<Appointment> obtenerfecha() {
     color: Colors.red,
   ));
 
-  tiempoinicio = DateTime(hoy.year, hoy.month, hoy.day, 13, 0, 0);
+  tiempoinicio = DateTime(2022, 3, 27, 13, 0, 0);
   tiempofinal = tiempoinicio.add(const Duration(hours: 1));
 
   tratamientos.add(Appointment(

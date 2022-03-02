@@ -22,16 +22,16 @@ class _TratamientoState extends State<Tratamiento> {
     return ListView(
       children: [
         ListTile(
-          title: Text(' Tratamiento 1 Fiebre \n 1 Acetaminofen cada 8 Horas '),
-        ),
-        Divider(),
-        ListTile(
-          title: Text('Tratamiento 2 Gripa \n 1 Dolex cada 12 Horas'),
+          title: Text(' Tratamiento 1 Ortodoncia \n  Fecha: 25/03/2021'),
         ),
         Divider(),
         ListTile(
           title:
-              Text('Tratamiento 3 Dolor de Cabeza \n 1 Advil antes de dormir'),
+              Text('Tratamiento 2 Blanqueamento Dental \n Fecha: 26/03/2021'),
+        ),
+        Divider(),
+        ListTile(
+          title: Text('Tratamiento 3 Endodoncia \n Fecha: 27/03/2021'),
         ),
       ],
     );

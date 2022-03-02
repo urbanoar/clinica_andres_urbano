@@ -15,17 +15,15 @@ class _DatosState extends State<Datos> {
       body: datos(),
     );
   }
-  
+
   Widget datos() {
-  return ListView(
-    children: [
-      ListTile(
-        title: Text(
-            ' Nombres: Edison Andres \n Apellidos: Urbano \n Codigo:217036080 \n Dirección: Floresta Ipiales \n Telefono: 3206457655 \n Correo: edisonandres1000@hotmail.com'),
-      ),
-    ],
-  );
+    return ListView(
+      children: [
+        ListTile(
+          title: Text(
+              ' Nombres: Edison Andres \n Apellidos: Urbano \n Codigo:217036080 \n Dirección: Floresta Ipiales \n Telefono: 3206457655 \n Correo: edisonandres1000@hotmail.com'),
+        ),
+      ],
+    );
+  }
 }
-}
-
-
