@@ -1,3 +1,4 @@
+import 'package:clinica_andres_urbano/cardViews/cardViews2.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 
@@ -13,7 +14,9 @@ class _CitasState extends State<Citas> {
       appBar: AppBar(
         title: Text('Mis Tratamientos'),
       ),
-      body: calendario(),
+      body:
+          //calendario(),
+          tarjetas(),
     );
   }
 
@@ -26,6 +29,10 @@ class _CitasState extends State<Citas> {
         agendaViewHeight: 400,
       ),
     );
+  }
+
+  Widget tarjetas() {
+    return MyCard2();
   }
 }
 

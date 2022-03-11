@@ -1,3 +1,4 @@
+import 'package:clinica_andres_urbano/cardViews/cardVies1.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(Pagos());
@@ -19,20 +20,6 @@ class _PagosState extends State<Pagos> {
   }
 
   Widget precios() {
-    return ListView(
-      children: [
-        ListTile(
-          title: Text(' Tratamiento 1 \n Fecha de Pago: 25/02/2022 \n  20000 '),
-        ),
-        Divider(),
-        ListTile(
-          title: Text(' Tratamiento 2 \n Fecha de Pago: 25/02/2022 \n 25000'),
-        ),
-        Divider(),
-        ListTile(
-          title: Text(' Tratamiento 3 \n Fecha de Pago: 25/02/2022 \n 30000 '),
-        ),
-      ],
-    );
+    return MyCard();
   }
 }
